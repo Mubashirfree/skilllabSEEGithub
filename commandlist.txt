@@ -1,0 +1,190 @@
+    1  ls
+    2  mv git Desktops
+    3  ls
+    4  cd Desktops
+    5  ls
+    6  cd ..
+    7  cd Desktop
+    8  ls
+    9  mkdir git
+   10  mkdir rainbow
+   11  cd rainbow
+   12  ls
+   13  pwd
+   14  git config --global --list
+   15  cd ~
+   16  mkdir rainbow
+   17  cd rainbow
+   18  git config --global user.name "Mubashir"
+   19  git config --global user.email "mubashirsyed639@gmail.com"
+   20  git config --global --list
+   21  ls -a
+   22  git init -b main
+   23  ls -a
+   24  nano rainbowcolors.txt
+   25  touch rainbowcolors.txt
+   26  nano rainbowcolors.txt
+   27  git status
+   28  git add rainbowcolors.txt
+   29  git status
+   30  git commit -m "red"
+   31  git log
+   32  git stats
+   33  git status
+   34  nano rainbowcolors.txt
+   35  git status
+   36  cat rainbowcolors.txt
+   37  git add -A
+   38  git status
+   39  git commit -m 'Orange'
+   40  git status
+   41  git log
+   42  git cat -p 4c4c7b0
+   43  git cat-file -p 4c4c7b0
+   44  git cat-file -p c92c6b8
+   45  git cat-file -p 071b1a0
+   46  git cat-file -p 1fd3287
+   47  git branch
+   48  git branch feature
+   49  git branch
+   50  git log
+   51  git switch features
+   52  git switch feature
+   53  git branch
+   54  git log
+   55  nano rainbowx.txt
+   56  nano rainbows.txt
+   57  nano rainbowcolors.txt
+   58  git status
+   59  git add rainbowcolors.txt
+   60  git commit -m 'yellow'
+   61  git log
+   62  git status
+   63  nano rainbowcolors.txt
+   64  git add rainbowcolors.txt
+   65  git commit -m 'green'
+   66  git log
+   67  nano rainbowcolors.txt
+   68  git add rainbowcolors.txt
+   69  git commit -m 'removing greeen'
+   70  nano rainbowcolors.txt
+   71  git switch main
+   72  git log
+   73  nano rainbowcolors.txt
+   74  git switch main
+   75  nano rainbowcolors.txt
+   76  git switch main
+   77  git log
+   78  git branch
+   79  git log
+   80  git log -all
+   81  git log --all
+   82  git merge feature
+   83  git log
+   84  git checkout 4c4c7b0
+   85  cat rainbowcolors.txt
+   86  git log --all
+   87  cat rainbowcolors.txt
+   88  git switch main
+   89  cat rainbowcolors.txt
+   90  cd ~
+   91  ls ~/.ssh
+   92  ls -al ~/.ssh
+   93  ssh-keygen -t ed25519 -C "mubashirsyed@gmail.com"
+   94  ssh-keygen -p -f ~/.ssh/id_ed25519
+   95  eval "$(ssh-agent -s)"
+   96  ssh-add ~/.ssh/id_ed25519
+   97  ssh -T git@github.com
+   98  cd rainbow/
+   99  git clone git@github.com:Mubashirfree/skilllabSEEGithub.git
+  100  ls
+  101  rm -rf skilllabSEEGithub/
+  102  ls
+  103  cat rainbowcolors.txt
+  104  git remote
+  105  git remote ass origin git@github.com:Mubashirfree/skilllabSEEGithub.git
+  106  git remote add origin git@github.com:Mubashirfree/skilllabSEEGithub.git
+  107  git remote
+  108  git remote -v
+  109  git push origin main
+  110  git pull origin main --allow-unrelated-histories
+  111  git push origin main
+  112  git push -f origin main
+  113  git branch -all
+  114  git branch --all
+  115  git log
+  116  git switch feature
+  117  git push origin feature
+  118  git log
+  119  git config --all
+  120  git config --list
+  121  git branch -vv
+  122  git branch --vv
+  123  git branch -vv
+  124  git config --list
+  125  git config user.name "Mubashir"
+  126  git config user.name "mubashirsyed639@gmail.com"
+  127  git config --list
+  128  git config user.name "Mubashir"
+  129  git config user.email "Mubashir"
+  130  git config --list
+  131  git config user.email "mubashirsyed639@gmail.com"
+  132  git config --list
+  133  nano rainbowcolors.txt
+  134  git pull 
+  135  nano rainbowcolors.txt
+  136  git branch 
+  137  git switch main
+  138  git pull
+  139  nano rainbowcolors.txt
+  140  git log --all
+  141  git fetch
+  142  git branch feature
+  143  git switch feature
+  144  git log --all
+  145  git fetch
+  146  git switch main
+  147  git merge origin/main
+  148  git log
+  149  git branch --all
+  150  git fetch -p
+  151  git branch --all
+  152  git branch -d feature
+  153  git branch --all
+  154  cat rainbowcolors.txt
+  155  nano othercolors.txt
+  156  git add othercolors.txt
+  157  git commit -m "brown"
+  158  git log
+  159  git branch -vv
+  160  git branch -u origin/main
+  161  git branch -vv
+  162  git push
+  163  git log
+  164  cat rainbowcolors.txt
+  165  nano rainbowcolors.txt
+  166  git pull
+  167  git log
+  168  nano rainbowcolors.txt
+  169  git add rainbowcolors.txt
+  170  git commit -m "indigo"
+  171  git push
+  172  git pull
+  173  git log
+  174  nano othercolors.txt
+  175  git add othercolors.txt
+  176  git commit -m "gray"
+  177  git push
+  178  git log
+  179  git pull
+  180  git log
+  181  git switch -c topic
+  182  nano othercolors.txt
+  183  git add othercolors.txt
+  184  git commit -m "pink"
+  185  git log
+  186  git branch -vv
+  187  git push
+  188  git push --set-upstream origin topic
+  189  git pull
+  190  history>>commandlist.txt
