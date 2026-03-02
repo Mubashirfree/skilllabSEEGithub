@@ -1,0 +1,101 @@
+    1  cd Desktop
+    2  cd ~
+    3  cd Desktop
+    4  ls
+    5  git clone git@github.com:Mubashirfree/skilllabSEEGithub.git
+    6  ls
+    7  cd skilllabSEEGithub/
+    8  git remote -v
+    9  git branch --all
+   10  git lob
+   11  git log
+   12  git branch --all
+   13  git switch feature
+   14  git branch -all
+   15  git branch --all
+   16  git push origin -d feature
+   17  git branch -all
+   18  git branch --all
+   19  git switch main
+   20  git branch --all
+   21  git branch -d feature
+   22  git branch --all
+   23  git config --list
+   24  nano rainbowcolors.txt
+   25  git add rainbowcolors.txt
+   26  git commit -m "green"
+   27  git log
+   28  git branch -vv
+   29  git status
+   30  git push
+   31  git status
+   32  git log
+   33  git config --global user.name "syed"
+   34  git config --global user.email "mubashirsyed87@gmail.com"
+   35  nano rainbowcolors.txt
+   36  git add -A
+   37  git commit -m "violet"
+   38  git push
+   39  git log
+   40  git status
+   41  nano rainbowcolors.txt
+   42  git status
+   43  git add rainbowcolors.txt
+   44  git status
+   45  nano rainbowcolors.txt
+   46  git status
+   47  git add rainbowcolors.txt
+   48  git status
+   49  git commit -m "blue"
+   50  git push
+   51  git log
+   52  git fetch
+   53  git merge origin/main
+   54  git log
+   55  git push
+   56  git log
+   57  ls
+   58  nano rainbowcolors.txt
+   59  git add rainbowcolors.txt
+   60  git commit -m "violet"
+   61  git log
+   62  git fetch
+   63  git status
+   64  git log --all
+   65  git merge origin/main
+   66  git status
+   67  cat rainbowcolors.txt
+   68  nano rainbowcolors.txt
+   69  git add rainbowcolors.txt
+   70  git status
+   71  git commit -m "merge commit 2"
+   72  git log
+   73  git push
+   74  git log
+   75  nano othercolors.txt
+   76  nano rainbowcolors.txt
+   77  git status
+   78  git add rainbowcolors.txt othercolors.txt
+   79  git status
+   80  git restore --staged rainbowcolors.txt
+   81  git status
+   82  git commit -m "black"
+   83  git status
+   84  git log
+   85  git add rainbowcolors.txt
+   86  git commit -m "rainbow"
+   87  git log
+   88  git fetch
+   89  git log --all
+   90  git rebase origin/main
+   91  git status
+   92  nano othercolors.txt
+   93  git add othercolors.txt
+   94  git staut
+   95  git status
+   96  git rebase --continue
+   97  git log
+   98  git push
+   99  git log
+  100  history>command list
+  101  history>commandlist.txt
